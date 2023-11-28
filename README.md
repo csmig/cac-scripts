@@ -27,9 +27,9 @@ $ sudo pacman -Sy ccid opensc
 
 `install-cac-linux.sh` installs system drivers for the PIV/CAC chip on your smartcard
 
-`install-cac-chrome.sh` configures the Chrome nssdb for the current user to use the system drivers. Will install the system drivers if necessary.
+`install-cac-chrome.sh` configures the Chrome nssdb for the current user to use the system drivers.
 
-`install-cac-firefox.sh` configures the Firefox certificate database for the current user to use the system drivers. Will install the system drivers if necessary.
+`install-cac-firefox.sh` configures the Firefox certificate database for the current user to use the system drivers.
 
 *** Firefox note: Ubuntu 22.04 installs Firefox as a snap. The script does not support this out of box. You will need to edit the script to use the correct profile directory found at `${HOME}/snap/firefox/common/.mozilla/firefox/` ***
 
