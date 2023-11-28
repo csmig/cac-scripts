@@ -12,12 +12,12 @@ You must have installed, enabled, and started the Smartcard reader driver `pcscd
 
 For Ubuntu 22.04:
 ```
-$ sudo apt install pcscd sssd libpam-sss
+$ sudo apt install pcscd
 ```
 
 For Arch-based distros:
 ```
-$ sudo pacman -Sy ccid opensc
+$ sudo pacman -Sy ccid
 ```
 
 
