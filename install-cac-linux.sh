@@ -9,7 +9,7 @@ case "${ID}" in
     test_opensc_status='test_opensc_status_ubuntu'
     install_open_sc='install_open_sc_ubuntu'
   ;;
-  arch)
+  arch|manjaro|endeavouros)
     opensc_pkcs11_lib='opensc_pkcs11_lib_arch'
     test_opensc_status='test_opensc_status_arch'
     install_open_sc='install_open_sc_arch'
