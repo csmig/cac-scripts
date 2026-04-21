@@ -14,7 +14,7 @@ case "${ID}" in
   cert_dir=/usr/local/share/ca-certificates/dod
   update_certs_cmd='update_debian_certs'
   ;;
-  arch|centos|rhel|fedora)
+  arch|manjaro|endeavouros|centos|rhel|fedora)
   cert_dir=/usr/local/share/ca-certificates/dod
   update_certs_cmd='update_trust_anchor_certs'
   ;;
